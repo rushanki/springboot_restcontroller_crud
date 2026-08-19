@@ -26,7 +26,7 @@ public class EmployeeController {
 		Employee emp = esi.addEmployee(employee);
 		return emp;
 	}
-	@GetMapping("/get")
+	@GetMapping("/getall")
 	public List<Employee>getAllEmployee() //to getall data so list 
 	{
 		List<Employee>all=esi.getAll();
